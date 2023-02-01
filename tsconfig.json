@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "resolveJsonModule": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "declaration": true,
+    "inlineSourceMap": true,
+    "paths": {
+      "@frontend/components": [
+        "./packages/components/src/index.ts"
+      ],
+    },
+  },
+  "exclude": [
+    "**/dist/**",
+    "./packages/app/dist/**",
+    "./packages/app/*.d.ts",
+    "./packages/app/*.d.cts",
+  ]
+}
