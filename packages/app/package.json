@@ -9,6 +9,9 @@
     "lint": "eslint .",
     "test": "vitest"
   },
+  "dependencies": {
+    "styled-components": "^5.3.6"
+  },
   "devDependencies": {
     "@frontend/components": "workspace:*",
     "@testing-library/react": "^13.4.0",
