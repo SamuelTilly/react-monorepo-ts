@@ -1,4 +1,4 @@
-import { SomeComponent, SomeModule, SomeOtherComponent } from '@frontend/components'
+import { SomeComponent, StyledComponent } from '@frontend/components'
 import { ReactElement, useState } from 'react'
 import './App.css'
 
@@ -8,12 +8,12 @@ function App(): ReactElement {
 
   return (
     <div className="App">
-      <h1>Vite + React { SomeModule }</h1>
+      <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => { setCount((count) => count + 1); }}>
           count is {count}
         </button>
-        <SomeOtherComponent>Hello</SomeOtherComponent>
+        <StyledComponent>Hello</StyledComponent>
         <SomeComponent>Edit <code>src/App.tsx</code> and save to test HMR</SomeComponent>
       </div>
       <p className="read-the-docs">
